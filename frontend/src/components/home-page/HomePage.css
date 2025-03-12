@@ -1,0 +1,24 @@
+.home-page-container {
+    background-color: #f4f4f4; /* Fundal gri deschis */
+    padding: 20px;
+  }
+  
+  .content-container {
+    margin-top: 30px;
+  }
+  
+  .home-card {
+    background-color: #4e6363;  /* Verde închis pentru fundal */
+    color: white;  /* Text alb */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Efect de hover */
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

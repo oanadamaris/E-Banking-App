@@ -1,0 +1,64 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #686a6d; 
+    color: white;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    height: 80px;  
+  }
+  
+  .header-title {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .header-title h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .menu {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .menu-btn {
+    background-color: #2f4f4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-btn:hover {
+    background-color: #2f4f4f;
+  }
+  
+  .menu-btn:focus {
+    outline: none; 
+  }
+
+  @media (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-btn {
+      margin-top: 10px;
+    }
+  }
+  
